@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sharedisplay.local/proto/signaling.schema.json",
+  "title": "ShareDisplay LAN signaling (newline-delimited JSON)",
+  "description": "Each message is one JSON object per line (UTF-8), sent over TCP.",
+  "oneOf": [
+    {
+      "type": "object",
+      "required": ["type", "token"],
+      "properties": {
+        "type": { "const": "hello" },
+        "token": { "type": "string", "minLength": 1 }
+      }
+    },
+    {
+      "type": "object",
+      "required": ["type"],
+      "properties": {
+        "type": { "const": "hello_ok" }
+      }
+    },
+    {
+      "type": "object",
+      "required": ["type", "sdp"],
+      "properties": {
+        "type": { "const": "offer" },
+        "sdp": { "type": "string" }
+      }
+    },
+    {
+      "type": "object",
+      "required": ["type", "sdp"],
+      "properties": {
+        "type": { "const": "answer" },
+        "sdp": { "type": "string" }
+      }
+    },
+    {
+      "type": "object",
+      "required": ["type", "candidate", "sdpMLineIndex"],
+      "properties": {
+        "type": { "const": "candidate" },
+        "candidate": { "type": "string" },
+        "sdpMLineIndex": { "type": "integer" },
+        "sdpMid": { "type": "string" }
+      }
+    },
+    {
+      "type": "object",
+      "required": ["type", "message"],
+      "properties": {
+        "type": { "const": "error" },
+        "message": { "type": "string" }
+      }
+    }
+  ]
+}
