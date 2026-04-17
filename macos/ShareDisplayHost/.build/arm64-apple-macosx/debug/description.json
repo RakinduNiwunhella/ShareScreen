@@ -1,0 +1,448 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+    "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/WebRTC.framework" : {
+      "inputs" : [
+        {
+          "kind" : "directory",
+          "name" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/artifacts/webrtc/WebRTC/WebRTC.xcframework/macos-x86_64_arm64/WebRTC.framework"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "directory",
+          "name" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/WebRTC.framework"
+        }
+      ]
+    }
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.ShareDisplayHost-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/ShareDisplayHost.build/sources",
+      "importPath" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/Sources/ShareDisplayHost/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/Sources/ShareDisplayHost/MDNSAdvertiser.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/Sources/ShareDisplayHost/NetworkHelpers.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/Sources/ShareDisplayHost/Pairing.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/Sources/ShareDisplayHost/ScreenCaptureService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/Sources/ShareDisplayHost/ShareDisplayApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/Sources/ShareDisplayHost/SignalingServer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/Sources/ShareDisplayHost/TestPatternCapturer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/Sources/ShareDisplayHost/WebRTCHost.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "directory",
+          "name" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/WebRTC.framework"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/ShareDisplayHost.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "ShareDisplayHost",
+      "moduleOutputPath" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/Modules/ShareDisplayHost.swiftmodule",
+      "objects" : [
+        "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/ShareDisplayHost.build/ContentView.swift.o",
+        "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/ShareDisplayHost.build/MDNSAdvertiser.swift.o",
+        "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/ShareDisplayHost.build/NetworkHelpers.swift.o",
+        "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/ShareDisplayHost.build/Pairing.swift.o",
+        "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/ShareDisplayHost.build/ScreenCaptureService.swift.o",
+        "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/ShareDisplayHost.build/ShareDisplayApp.swift.o",
+        "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/ShareDisplayHost.build/SignalingServer.swift.o",
+        "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/ShareDisplayHost.build/TestPatternCapturer.swift.o",
+        "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/ShareDisplayHost.build/WebRTCHost.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-I",
+        "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/artifacts/webrtc/WebRTC/WebRTC.xcframework/macos-x86_64_arm64",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/artifacts/webrtc/WebRTC/WebRTC.xcframework/macos-x86_64_arm64",
+        "-module-cache-path",
+        "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "ShareDisplayHost_main",
+        "-F",
+        "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "sharedisplayhost"
+      ],
+      "outputFileMapPath" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/ShareDisplayHost.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/ShareDisplayHost.build/ContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/ShareDisplayHost.build/MDNSAdvertiser.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/ShareDisplayHost.build/NetworkHelpers.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/ShareDisplayHost.build/Pairing.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/ShareDisplayHost.build/ScreenCaptureService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/ShareDisplayHost.build/ShareDisplayApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/ShareDisplayHost.build/SignalingServer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/ShareDisplayHost.build/TestPatternCapturer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/ShareDisplayHost.build/WebRTCHost.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/Modules/ShareDisplayHost.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/Sources/ShareDisplayHost/ContentView.swift",
+        "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/Sources/ShareDisplayHost/MDNSAdvertiser.swift",
+        "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/Sources/ShareDisplayHost/NetworkHelpers.swift",
+        "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/Sources/ShareDisplayHost/Pairing.swift",
+        "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/Sources/ShareDisplayHost/ScreenCaptureService.swift",
+        "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/Sources/ShareDisplayHost/ShareDisplayApp.swift",
+        "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/Sources/ShareDisplayHost/SignalingServer.swift",
+        "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/Sources/ShareDisplayHost/TestPatternCapturer.swift",
+        "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/Sources/ShareDisplayHost/WebRTCHost.swift"
+      ],
+      "tempsPath" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/ShareDisplayHost.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "ShareDisplayHost" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "ShareDisplayHost",
+      "-package-name",
+      "sharedisplayhost",
+      "-c",
+      "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/Sources/ShareDisplayHost/ContentView.swift",
+      "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/Sources/ShareDisplayHost/MDNSAdvertiser.swift",
+      "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/Sources/ShareDisplayHost/NetworkHelpers.swift",
+      "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/Sources/ShareDisplayHost/Pairing.swift",
+      "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/Sources/ShareDisplayHost/ScreenCaptureService.swift",
+      "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/Sources/ShareDisplayHost/ShareDisplayApp.swift",
+      "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/Sources/ShareDisplayHost/SignalingServer.swift",
+      "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/Sources/ShareDisplayHost/TestPatternCapturer.swift",
+      "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/Sources/ShareDisplayHost/WebRTCHost.swift",
+      "-I",
+      "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-I",
+      "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/artifacts/webrtc/WebRTC/WebRTC.xcframework/macos-x86_64_arm64",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/artifacts/webrtc/WebRTC/WebRTC.xcframework/macos-x86_64_arm64",
+      "-module-cache-path",
+      "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "ShareDisplayHost_main",
+      "-F",
+      "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "sharedisplayhost",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "ShareDisplayHost" : [
+      "WebRTC"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/ShareDisplayHost-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/ShareDisplayHost-entitlement.plist"
+    },
+    "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/ShareDisplayHost.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/Sources/ShareDisplayHost/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/Sources/ShareDisplayHost/MDNSAdvertiser.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/Sources/ShareDisplayHost/NetworkHelpers.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/Sources/ShareDisplayHost/Pairing.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/Sources/ShareDisplayHost/ScreenCaptureService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/Sources/ShareDisplayHost/ShareDisplayApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/Sources/ShareDisplayHost/SignalingServer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/Sources/ShareDisplayHost/TestPatternCapturer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/Sources/ShareDisplayHost/WebRTCHost.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/ShareDisplayHost.build/sources"
+    },
+    "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/ShareDisplayHost.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/ShareDisplayHost.build/ContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/ShareDisplayHost.build/MDNSAdvertiser.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/ShareDisplayHost.build/NetworkHelpers.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/ShareDisplayHost.build/Pairing.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/ShareDisplayHost.build/ScreenCaptureService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/ShareDisplayHost.build/ShareDisplayApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/ShareDisplayHost.build/SignalingServer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/ShareDisplayHost.build/TestPatternCapturer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/ShareDisplayHost.build/WebRTCHost.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/ShareDisplayHost.product/Objects.LinkFileList"
+    },
+    "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/rakinduniwunhella/Desktop/IIT Study Meterias/Projects/ShareDisplay/macos/ShareDisplayHost/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}
