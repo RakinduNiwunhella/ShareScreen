@@ -17,4 +17,7 @@
     <PackageReference Include="SIPSorceryMedia.FFmpeg" Version="1.2.0" />
     <PackageReference Include="Zeroconf" Version="3.6.11" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="ffmpeg\bin\**\*" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
 </Project>

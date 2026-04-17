@@ -1,6 +1,7 @@
 using System;
 using System.Drawing;
 using System.Drawing.Imaging;
+using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
@@ -56,8 +57,9 @@ internal sealed class MainForm : Form
         row1.Controls.Add(_token);
 
         var row2 = new FlowLayoutPanel { FlowDirection = FlowDirection.LeftToRight, AutoSize = true, WrapContents = false };
-        row2.Controls.Add(new Label { Text = "FFmpeg bin (folder with avcodec-*.dll)", AutoSize = true, Padding = new Padding(0, 8, 6, 0) });
+        row2.Controls.Add(new Label { Text = "FFmpeg bin (bundled ffmpeg\\bin; override if needed)", AutoSize = true, Padding = new Padding(0, 8, 6, 0) });
         row2.Controls.Add(_ffmpegPath);
+        _ffmpegPath.Text = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "ffmpeg", "bin"));
 
         var row3 = new FlowLayoutPanel { FlowDirection = FlowDirection.LeftToRight, AutoSize = true, WrapContents = false };
         row3.Controls.Add(_connect);
@@ -147,7 +149,13 @@ internal sealed class MainForm : Form
         var ffmpeg = _ffmpegPath.Text.Trim();
         if (string.IsNullOrWhiteSpace(ffmpeg))
         {
-            SetStatus("Set FFmpeg bin folder (see docs).");
+            ffmpeg = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "ffmpeg", "bin"));
+        }
+
+        if (!IsValidFfmpegBinFolder(ffmpeg))
+        {
+            SetStatus(
+                "FFmpeg shared DLLs missing. On the dev PC run: .\\download-ffmpeg.ps1 (in the Viewer folder), then rebuild. Or set this path to a folder containing avcodec-*.dll.");
             return;
         }
 
@@ -423,6 +431,23 @@ internal sealed class MainForm : Form
     private void SetStatus(string text)
     {
         _status.Text = text;
+    }
+
+    private static bool IsValidFfmpegBinFolder(string path)
+    {
+        if (string.IsNullOrWhiteSpace(path) || !Directory.Exists(path))
+        {
+            return false;
+        }
+
+        try
+        {
+            return Directory.GetFiles(path, "avcodec-*.dll").Length > 0;
+        }
+        catch
+        {
+            return false;
+        }
     }
 
     protected override void OnFormClosed(FormClosedEventArgs e)

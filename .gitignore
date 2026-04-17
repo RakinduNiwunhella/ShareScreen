@@ -1,1 +1,5 @@
-macos/ShareDisplayHost/.build/checkouts/WebRTC/
+macos/ShareDisplayHost/.build/
+
+# Windows viewer: bundled FFmpeg DLLs (run windows/ShareDisplay.Viewer/download-ffmpeg.ps1)
+windows/ShareDisplay.Viewer/ffmpeg/bin/*
+!windows/ShareDisplay.Viewer/ffmpeg/bin/.gitkeep
